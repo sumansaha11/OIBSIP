@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.header {
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem 0px;
+    color: black;
+    background-image: url("./img/marvel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.header.tittle {
+    margin-bottom: 1rem;
+}
+
+.container {
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+
+.tribute {
+    display: flex;
+    justify-content: space-between;
+    max-width: 77rem;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0);
+    align-items: center;
+}
+
+.tribute h5 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.tribute img{
+    max-width: 30%;
+}
+
+.box {
+    background-image: url("./img/bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.bio {
+    color: black;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.bio h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+.bio p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.bio h2 {
+    margin-top: 2rem;
+}
+
+.last-text p{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #8a171a;
+    color: #fecc45;
+    font-weight: 300;
+    margin-top: 20px;
+}
